@@ -10,8 +10,9 @@ import javax.xml.parsers.DocumentBuilder;
 import java.util.Scanner;
 
 public class StockValue{
-        //private final String USER_AGENT = "Mozilla/5.0";
+        
         public static void main(String[] args) throws Exception{
+                
                 Scanner scan = new Scanner(System.in);
                 System.out.println("Type Index");
                 String index = scan.next();
